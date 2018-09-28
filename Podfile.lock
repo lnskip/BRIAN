@@ -1,0 +1,120 @@
+PODS:
+  - Eureka (4.1.1)
+  - Firebase/Auth (4.12.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.6.0)
+  - Firebase/Core (4.12.0):
+    - FirebaseAnalytics (= 4.1.0)
+    - FirebaseCore (= 4.0.19)
+  - Firebase/Database (4.12.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.5)
+  - Firebase/Storage (4.12.0):
+    - Firebase/Core
+    - FirebaseStorage (= 2.2.0)
+  - FirebaseAnalytics (4.1.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.6.0):
+    - FirebaseAnalytics (~> 4.1)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.19):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.1.5):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.2.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMSessionFetcher/Core (1.1.15)
+  - IBAnimatable (5.0.0)
+  - ImageRow (3.0.0):
+    - Eureka (~> 4.0)
+  - IQKeyboardManagerSwift (5.0.8)
+  - JGProgressHUD (2.0.2)
+  - JTAppleCalendar (7.1.5)
+  - Kingfisher (4.7.0)
+  - leveldb-library (1.20)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ReachabilitySwift (4.1.0)
+  - SCLAlertView (0.8)
+  - SwiftLocation (3.2.3):
+    - SwiftyJSON (~> 4.0.0-alpha.1)
+  - SwiftRichString (1.1.0)
+  - SwiftyButton (0.8.0)
+  - SwiftyJSON (4.0.0)
+  - TBEmptyDataSet (2.7)
+  - TextFieldEffects (1.4.0)
+
+DEPENDENCIES:
+  - Eureka
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Storage
+  - IBAnimatable
+  - ImageRow
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - JTAppleCalendar
+  - Kingfisher
+  - ReachabilitySwift
+  - SCLAlertView
+  - SwiftLocation
+  - SwiftRichString
+  - SwiftyButton
+  - TBEmptyDataSet
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
+  Firebase: d7fdf40e4d6c841849c52919f437fd3a0009ded0
+  FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
+  FirebaseAuth: 85a1b118a89838efc6f6ab3f2b1f94747d72a915
+  FirebaseCore: ff49ebb37e0f63a570d78c4f1c1c0befe8659d5c
+  FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FirebaseStorage: 0c223481c8f89ed300cf1239ddd2d9833622c65f
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
+  ImageRow: 048123c296de9a6ac3998c415a6706c45ce480af
+  IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
+  JGProgressHUD: bf75da151936cfd3c9b674afb17e8a5df2e14a7d
+  JTAppleCalendar: 2d4f974f9f3c8b4964d51ca1f6e004883c031fbe
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftLocation: a3c3bc2023118171ef3572188a31def94aa0892c
+  SwiftRichString: 49c75726140c7f780fad1d067f804491d51188fa
+  SwiftyButton: 093e3fe2becf3ae31c0f6c1c6987b79a93fb3ecb
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TBEmptyDataSet: 1da712a3e0c324179253960165202d30009cba26
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+
+PODFILE CHECKSUM: 6ab8d18b793bdefe0422af0d5071c9fb2e21d007
+
+COCOAPODS: 1.3.1
